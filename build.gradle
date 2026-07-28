@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.handfx'
+    compileSdk 34
+    defaultConfig { applicationId "com.handfx" minSdk 26 targetSdk 34 }
+    externalNativeBuild { cmake { path "CMakeList.txt" } }
+}
