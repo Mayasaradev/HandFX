@@ -1,13 +1,12 @@
 #pragma once
 
-namespace handfx {
-
-class Engine {
+class Application {
 public:
     bool initialize();
+
     void update();
+
     void render();
+
     void shutdown();
 };
-
-}

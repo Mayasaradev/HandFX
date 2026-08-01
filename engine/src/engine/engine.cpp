@@ -1,22 +1,18 @@
 #include <engine/engine.hpp>
 
-bool Engine::init()
-{
-  return true;
-}
-void Engine::update()
-{
+namespace handfx {
 
+bool Engine::initialize() {
+    return true;
 }
-void Engine::render()
-{
 
+void Engine::update() {
 }
-void Engine::shutdown()
-{
-  running = false;
+
+void Engine::render() {
 }
-bool Engine::isRunning() const
-{
-  return running;
+
+void Engine::shutdown() {
+}
+
 }

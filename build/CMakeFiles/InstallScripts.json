@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/data/data/com.termux/files/home/project/HandFX/build/cmake_install.cmake"
+		"/data/data/com.termux/files/home/project/HandFX/build/cmake_install.cmake",
+		"/data/data/com.termux/files/home/project/HandFX/build/engine/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

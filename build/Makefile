@@ -117,209 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HandFX
+# Target rules for targets named handfx
 
 # Build rule for target.
-HandFX: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HandFX
-.PHONY : HandFX
+handfx: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 handfx
+.PHONY : handfx
 
 # fast build rule for target.
-HandFX/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/build
-.PHONY : HandFX/fast
-
-cpp/ai/inference.o: cpp/ai/inference.cpp.o
-.PHONY : cpp/ai/inference.o
-
-# target to build an object file
-cpp/ai/inference.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/ai/inference.cpp.o
-.PHONY : cpp/ai/inference.cpp.o
-
-cpp/ai/inference.i: cpp/ai/inference.cpp.i
-.PHONY : cpp/ai/inference.i
-
-# target to preprocess a source file
-cpp/ai/inference.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/ai/inference.cpp.i
-.PHONY : cpp/ai/inference.cpp.i
-
-cpp/ai/inference.s: cpp/ai/inference.cpp.s
-.PHONY : cpp/ai/inference.s
-
-# target to generate assembly for a file
-cpp/ai/inference.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/ai/inference.cpp.s
-.PHONY : cpp/ai/inference.cpp.s
-
-cpp/camera/camera.o: cpp/camera/camera.cpp.o
-.PHONY : cpp/camera/camera.o
-
-# target to build an object file
-cpp/camera/camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/camera/camera.cpp.o
-.PHONY : cpp/camera/camera.cpp.o
-
-cpp/camera/camera.i: cpp/camera/camera.cpp.i
-.PHONY : cpp/camera/camera.i
-
-# target to preprocess a source file
-cpp/camera/camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/camera/camera.cpp.i
-.PHONY : cpp/camera/camera.cpp.i
-
-cpp/camera/camera.s: cpp/camera/camera.cpp.s
-.PHONY : cpp/camera/camera.s
-
-# target to generate assembly for a file
-cpp/camera/camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/camera/camera.cpp.s
-.PHONY : cpp/camera/camera.cpp.s
-
-cpp/engine/engine.o: cpp/engine/engine.cpp.o
-.PHONY : cpp/engine/engine.o
-
-# target to build an object file
-cpp/engine/engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/engine/engine.cpp.o
-.PHONY : cpp/engine/engine.cpp.o
-
-cpp/engine/engine.i: cpp/engine/engine.cpp.i
-.PHONY : cpp/engine/engine.i
-
-# target to preprocess a source file
-cpp/engine/engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/engine/engine.cpp.i
-.PHONY : cpp/engine/engine.cpp.i
-
-cpp/engine/engine.s: cpp/engine/engine.cpp.s
-.PHONY : cpp/engine/engine.s
-
-# target to generate assembly for a file
-cpp/engine/engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/engine/engine.cpp.s
-.PHONY : cpp/engine/engine.cpp.s
-
-cpp/geometry/geometry.o: cpp/geometry/geometry.cpp.o
-.PHONY : cpp/geometry/geometry.o
-
-# target to build an object file
-cpp/geometry/geometry.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/geometry/geometry.cpp.o
-.PHONY : cpp/geometry/geometry.cpp.o
-
-cpp/geometry/geometry.i: cpp/geometry/geometry.cpp.i
-.PHONY : cpp/geometry/geometry.i
-
-# target to preprocess a source file
-cpp/geometry/geometry.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/geometry/geometry.cpp.i
-.PHONY : cpp/geometry/geometry.cpp.i
-
-cpp/geometry/geometry.s: cpp/geometry/geometry.cpp.s
-.PHONY : cpp/geometry/geometry.s
-
-# target to generate assembly for a file
-cpp/geometry/geometry.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/geometry/geometry.cpp.s
-.PHONY : cpp/geometry/geometry.cpp.s
-
-cpp/main.o: cpp/main.cpp.o
-.PHONY : cpp/main.o
-
-# target to build an object file
-cpp/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/main.cpp.o
-.PHONY : cpp/main.cpp.o
-
-cpp/main.i: cpp/main.cpp.i
-.PHONY : cpp/main.i
-
-# target to preprocess a source file
-cpp/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/main.cpp.i
-.PHONY : cpp/main.cpp.i
-
-cpp/main.s: cpp/main.cpp.s
-.PHONY : cpp/main.s
-
-# target to generate assembly for a file
-cpp/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/main.cpp.s
-.PHONY : cpp/main.cpp.s
-
-cpp/math/vector.o: cpp/math/vector.cpp.o
-.PHONY : cpp/math/vector.o
-
-# target to build an object file
-cpp/math/vector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/math/vector.cpp.o
-.PHONY : cpp/math/vector.cpp.o
-
-cpp/math/vector.i: cpp/math/vector.cpp.i
-.PHONY : cpp/math/vector.i
-
-# target to preprocess a source file
-cpp/math/vector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/math/vector.cpp.i
-.PHONY : cpp/math/vector.cpp.i
-
-cpp/math/vector.s: cpp/math/vector.cpp.s
-.PHONY : cpp/math/vector.s
-
-# target to generate assembly for a file
-cpp/math/vector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/math/vector.cpp.s
-.PHONY : cpp/math/vector.cpp.s
-
-cpp/renderer/renderer.o: cpp/renderer/renderer.cpp.o
-.PHONY : cpp/renderer/renderer.o
-
-# target to build an object file
-cpp/renderer/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/renderer/renderer.cpp.o
-.PHONY : cpp/renderer/renderer.cpp.o
-
-cpp/renderer/renderer.i: cpp/renderer/renderer.cpp.i
-.PHONY : cpp/renderer/renderer.i
-
-# target to preprocess a source file
-cpp/renderer/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/renderer/renderer.cpp.i
-.PHONY : cpp/renderer/renderer.cpp.i
-
-cpp/renderer/renderer.s: cpp/renderer/renderer.cpp.s
-.PHONY : cpp/renderer/renderer.s
-
-# target to generate assembly for a file
-cpp/renderer/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/renderer/renderer.cpp.s
-.PHONY : cpp/renderer/renderer.cpp.s
-
-cpp/utils/logger.o: cpp/utils/logger.cpp.o
-.PHONY : cpp/utils/logger.o
-
-# target to build an object file
-cpp/utils/logger.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/utils/logger.cpp.o
-.PHONY : cpp/utils/logger.cpp.o
-
-cpp/utils/logger.i: cpp/utils/logger.cpp.i
-.PHONY : cpp/utils/logger.i
-
-# target to preprocess a source file
-cpp/utils/logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/utils/logger.cpp.i
-.PHONY : cpp/utils/logger.cpp.i
-
-cpp/utils/logger.s: cpp/utils/logger.cpp.s
-.PHONY : cpp/utils/logger.s
-
-# target to generate assembly for a file
-cpp/utils/logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/HandFX.dir/build.make CMakeFiles/HandFX.dir/cpp/utils/logger.cpp.s
-.PHONY : cpp/utils/logger.cpp.s
+handfx/fast:
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/handfx.dir/build.make engine/CMakeFiles/handfx.dir/build
+.PHONY : handfx/fast
 
 # Help Target
 help:
@@ -329,31 +137,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... HandFX"
-	@echo "... cpp/ai/inference.o"
-	@echo "... cpp/ai/inference.i"
-	@echo "... cpp/ai/inference.s"
-	@echo "... cpp/camera/camera.o"
-	@echo "... cpp/camera/camera.i"
-	@echo "... cpp/camera/camera.s"
-	@echo "... cpp/engine/engine.o"
-	@echo "... cpp/engine/engine.i"
-	@echo "... cpp/engine/engine.s"
-	@echo "... cpp/geometry/geometry.o"
-	@echo "... cpp/geometry/geometry.i"
-	@echo "... cpp/geometry/geometry.s"
-	@echo "... cpp/main.o"
-	@echo "... cpp/main.i"
-	@echo "... cpp/main.s"
-	@echo "... cpp/math/vector.o"
-	@echo "... cpp/math/vector.i"
-	@echo "... cpp/math/vector.s"
-	@echo "... cpp/renderer/renderer.o"
-	@echo "... cpp/renderer/renderer.i"
-	@echo "... cpp/renderer/renderer.s"
-	@echo "... cpp/utils/logger.o"
-	@echo "... cpp/utils/logger.i"
-	@echo "... cpp/utils/logger.s"
+	@echo "... handfx"
 .PHONY : help
 
 

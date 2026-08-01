@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.4.2/CMakeCCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeSystem.cmake"
+  "/data/data/com.termux/files/home/project/HandFX/engine/CMakeLists.txt"
   "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompiler.cmake.in"
   "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCCompilerABI.c"
   "/data/data/com.termux/files/usr/share/cmake-4.4/Modules/CMakeCInformation.cmake"
@@ -150,9 +151,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "engine/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/HandFX.dir/DependInfo.cmake"
+  "engine/CMakeFiles/handfx.dir/DependInfo.cmake"
   )
