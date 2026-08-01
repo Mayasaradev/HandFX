@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/project/HandFX/build/CMakeFiles/HandFX.dir
+/data/data/com.termux/files/home/project/HandFX/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/project/HandFX/build/CMakeFiles/rebuild_cache.dir
