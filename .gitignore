@@ -1,23 +1,4 @@
-# Gradle
-.gradle/
-
-# Build
 build/
-app/build/
-
-# CMake
-CMakeCache.txt
-CMakeFiles/
-cmake_install.cmake
-Makefile
-compile_commands.json
-
-# Android
+.gradle/
 local.properties
-
-# IDE
-.idea/
-.vscode/
-
-# OS
-.DS_Store
+*.apk

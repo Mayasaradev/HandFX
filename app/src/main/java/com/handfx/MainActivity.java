@@ -2,6 +2,7 @@ package com.handfx;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -9,12 +10,15 @@ public class MainActivity extends Activity {
         System.loadLibrary("handfx");
     }
 
-    public native void startEngine();
+    public native String stringFromJNI();
 
     @Override
-    protected void onCreate(Bundle state) {
-        super.onCreate(state);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
 
-        startEngine();
+        TextView view = new TextView(this);
+        view.setText(stringFromJNI());
+
+        setContentView(view);
     }
 }

@@ -1,14 +1,13 @@
 #include <jni.h>
-
-#include "engine/Application.hpp"
-
-static Application app;
+#include <string>
 
 extern "C"
-JNIEXPORT void JNICALL
-Java_com_handfx_MainActivity_startEngine(
+JNIEXPORT jstring JNICALL
+Java_com_handfx_MainActivity_stringFromJNI(
         JNIEnv* env,
-        jobject obj
-) {
-    app.initialize();
+        jobject) {
+
+    std::string text = "HandFX Native Engine Running";
+
+    return env->NewStringUTF(text.c_str());
 }
