@@ -1,14 +1,21 @@
 #include "engine/Application.hpp"
+#include "utils/logger.hpp"
 
-bool Application::initialize() {
-    return true;
+namespace HandFX {
+
+void Application::init()
+{
+    logMessage("Application initialized");
 }
 
-void Application::update() {
+void Application::update()
+{
+    // game loop / engine update nanti di sini
 }
 
-void Application::render() {
+void Application::shutdown()
+{
+    logMessage("Application shutdown");
 }
 
-void Application::shutdown() {
 }

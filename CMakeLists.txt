@@ -20,3 +20,7 @@ target_link_libraries(handfx
     handfx_engine
     log
 )
+target_link_libraries(handfx
+    handfx_engine
+    log
+)
