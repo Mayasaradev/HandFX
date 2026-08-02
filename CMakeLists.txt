@@ -13,9 +13,10 @@ add_library(handfx SHARED
 
 target_include_directories(handfx
     PRIVATE
-        engine/include
+    engine/include
 )
 
 target_link_libraries(handfx
-    engine
+    handfx_engine
+    log
 )
